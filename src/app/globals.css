@@ -1,0 +1,168 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Brand teal sampled from the MInT emblem (#07878c) */
+  --color-brand-50: #effbfb;
+  --color-brand-100: #d5f3f3;
+  --color-brand-200: #aee6e7;
+  --color-brand-300: #77d2d5;
+  --color-brand-400: #3db5ba;
+  --color-brand-500: #12989e;
+  --color-brand-600: #07878c;
+  --color-brand-700: #0a6a6f;
+  --color-brand-800: #0e555a;
+  --color-brand-900: #10474b;
+  --color-brand-950: #032c30;
+
+  /* Deep institutional navy */
+  --color-ink-50: #f4f7fa;
+  --color-ink-100: #e6edf3;
+  --color-ink-200: #c9d6e2;
+  --color-ink-300: #9fb3c6;
+  --color-ink-400: #6d87a1;
+  --color-ink-500: #4c6782;
+  --color-ink-600: #3a5169;
+  --color-ink-700: #2d4155;
+  --color-ink-800: #1a2d40;
+  --color-ink-900: #0f1f30;
+  --color-ink-950: #07121d;
+
+  /* Gold accent (sparingly: highlights, badges, focus) */
+  --color-gold-300: #fcd98a;
+  --color-gold-400: #f8c555;
+  --color-gold-500: #f0ab25;
+  --color-gold-600: #d48c0e;
+
+  /* Ethiopian flag tones for the thin national stripe */
+  --color-flag-green: #078930;
+  --color-flag-yellow: #fcdd09;
+  --color-flag-red: #da121a;
+
+  --font-sans: var(--font-body), var(--font-ethiopic), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-heading), var(--font-ethiopic), ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-card: 0 1px 2px rgb(15 31 48 / 0.04), 0 8px 24px -8px rgb(15 31 48 / 0.10);
+  --shadow-lift: 0 2px 4px rgb(15 31 48 / 0.05), 0 24px 48px -16px rgb(7 135 140 / 0.28);
+
+  --animate-marquee: marquee var(--marquee-duration, 40s) linear infinite;
+  --animate-ticker: marquee var(--marquee-duration, 60s) linear infinite;
+  --animate-kenburns: kenburns 9s ease-out forwards;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-shimmer: shimmer 1.6s linear infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes kenburns {
+    from { transform: scale(1.12); }
+    to { transform: scale(1); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  @keyframes shimmer {
+    from { background-position: -400px 0; }
+    to { background-position: 400px 0; }
+  }
+}
+
+/* Amharic: Ethiopic font first and slightly roomier line-height */
+:lang(am) {
+  --font-sans: var(--font-ethiopic), var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-ethiopic), var(--font-heading), ui-sans-serif, system-ui, sans-serif;
+}
+:lang(am) body { line-height: 1.75; }
+:lang(am) h1, :lang(am) h2, :lang(am) h3 { letter-spacing: 0; line-height: 1.35; }
+/* Ethiopic glyphs are dense: read slightly larger and without wide tracking. */
+html:lang(am) { font-size: 103%; }
+:lang(am) .eyebrow, :lang(am) .uppercase { letter-spacing: 0.02em; }
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    scroll-padding-top: 6.5rem;
+  }
+  body {
+    @apply bg-white text-ink-800 antialiased dark:bg-ink-950 dark:text-ink-100;
+    font-feature-settings: "cv11", "ss01";
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-ink-900 dark:text-white;
+    letter-spacing: -0.015em;
+  }
+  ::selection { @apply bg-brand-600 text-white; }
+  :focus-visible {
+    outline: 3px solid var(--color-gold-500);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-page { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-brand-600 dark:text-brand-300;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-6 bg-current;
+  }
+  .card {
+    @apply rounded-2xl border border-ink-100 bg-white shadow-card transition duration-300 dark:border-white/10 dark:bg-ink-900;
+  }
+  .card-hover { @apply hover:-translate-y-1 hover:border-brand-200 hover:shadow-lift dark:hover:border-brand-700; }
+  .skeleton {
+    @apply rounded-lg bg-ink-100 dark:bg-white/5;
+    background-image: linear-gradient(90deg, transparent 0, rgb(255 255 255 / 0.55) 50%, transparent 100%);
+    background-size: 800px 100%;
+    background-repeat: no-repeat;
+    animation: var(--animate-shimmer);
+  }
+  .dark .skeleton { background-image: linear-gradient(90deg, transparent 0, rgb(255 255 255 / 0.06) 50%, transparent 100%); }
+  .flag-stripe {
+    background: linear-gradient(90deg, var(--color-flag-green) 0 33.3%, var(--color-flag-yellow) 33.3% 66.6%, var(--color-flag-red) 66.6% 100%);
+  }
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.06) 1px, transparent 1px);
+    background-size: 44px 44px;
+  }
+  .bg-dots {
+    background-image: radial-gradient(rgb(7 135 140 / 0.18) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .mask-fade-x {
+    mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  }
+  .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .sr-honeypot {
+    position: absolute !important;
+    left: -10000px !important;
+    width: 1px; height: 1px; overflow: hidden;
+  }
+}
+
+/* Long-form CMS content */
+.prose-mint {
+  @apply prose prose-lg max-w-none prose-slate dark:prose-invert
+    prose-headings:font-display prose-headings:text-ink-900 dark:prose-headings:text-white
+    prose-a:text-brand-700 prose-a:decoration-brand-300 prose-a:underline-offset-4 hover:prose-a:decoration-brand-600 dark:prose-a:text-brand-300
+    prose-img:rounded-2xl prose-blockquote:border-l-brand-500 prose-blockquote:bg-brand-50/60 prose-blockquote:py-1 prose-blockquote:not-italic dark:prose-blockquote:bg-white/5
+    prose-li:marker:text-brand-500;
+}

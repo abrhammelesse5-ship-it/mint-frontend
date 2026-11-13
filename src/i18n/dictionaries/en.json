@@ -1,0 +1,484 @@
+{
+  "site": {
+    "name": "Ministry of Innovation and Technology",
+    "short": "MInT",
+    "country": "Federal Democratic Republic of Ethiopia",
+    "tagline": "Building an innovative, technology-driven and digitally connected Ethiopia.",
+    "description": "Official website of the Ministry of Innovation and Technology (MInT) of the Federal Democratic Republic of Ethiopia: news, policies, programs, digital services and opportunities."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "overview": "Overview",
+    "ministerMessage": "Message from the Minister",
+    "visionMission": "Vision, Mission & Values",
+    "structure": "Organizational Structure",
+    "powers": "Powers & Duties",
+    "leadership": "Leadership",
+    "sectors": "Sectors",
+    "allSectors": "All sectors",
+    "policyPrograms": "Policy & Programs",
+    "programs": "Programs & Projects",
+    "policies": "Policies, Regulations & Strategies",
+    "guidelines": "Guidelines & Standards",
+    "plansReports": "Plans & Reports",
+    "resources": "Resources",
+    "documents": "Document Library",
+    "magazines": "Magazines",
+    "faq": "FAQ",
+    "media": "Media",
+    "news": "News",
+    "pressReleases": "Press Releases",
+    "gallery": "Photo Gallery",
+    "events": "Events",
+    "announcements": "Announcements",
+    "notices": "Notices",
+    "bids": "Bids",
+    "vacancies": "Vacancies",
+    "conceptNotes": "Calls for Concept Notes",
+    "trainings": "Training Opportunities",
+    "systems": "Systems",
+    "internalSystems": "Internal Systems",
+    "externalSystems": "External Systems",
+    "ecosystem": "Ecosystem",
+    "contact": "Contact",
+    "search": "Search",
+    "menu": "Menu",
+    "skipToContent": "Skip to main content",
+    "mainNav": "Main navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "navDesc": {
+    "ministerMessage": "A word from H.E. the Minister",
+    "visionMission": "Where we are heading and why",
+    "structure": "Sectors, directorates and leadership",
+    "powers": "Our legal mandate",
+    "leadership": "Minister, state ministers and executives",
+    "programs": "National initiatives we lead",
+    "policies": "Policy, regulation and strategy documents",
+    "guidelines": "Technical guidelines and standards",
+    "plansReports": "Annual plans and performance reports",
+    "documents": "Search every published document",
+    "magazines": "Our periodic publications",
+    "faq": "Answers to common questions",
+    "news": "The latest from the Ministry",
+    "pressReleases": "Official statements",
+    "gallery": "Photos from our work",
+    "events": "Conferences, forums and launches",
+    "notices": "Official public notices",
+    "bids": "Procurement opportunities",
+    "vacancies": "Join the Ministry",
+    "conceptNotes": "Funding calls for research and innovation",
+    "trainings": "Capacity building and beneficiaries",
+    "internalSystems": "Tools for Ministry staff",
+    "externalSystems": "Digital services for the public"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "backTo": "Back to {page}",
+    "share": "Share",
+    "shareOn": "Share on {network}",
+    "copyLink": "Copy link",
+    "copied": "Link copied",
+    "download": "Download",
+    "downloads": "downloads",
+    "views": "views",
+    "published": "Published",
+    "updated": "Updated",
+    "by": "By",
+    "tags": "Tags",
+    "category": "Category",
+    "all": "All",
+    "filter": "Filter",
+    "clear": "Clear filters",
+    "search": "Search",
+    "searchPlaceholder": "Search the website…",
+    "results": "{n} results",
+    "result": "1 result",
+    "noResults": "No results found",
+    "page": "Page",
+    "pageOf": "Page {page} of {total}",
+    "previous": "Previous",
+    "next": "Next",
+    "loading": "Loading…",
+    "language": "Language",
+    "sector": "Sector",
+    "status": "Status",
+    "date": "Date",
+    "location": "Location",
+    "online": "Online",
+    "deadline": "Deadline",
+    "daysLeft": "{n} days left",
+    "dayLeft": "1 day left",
+    "closesToday": "Closes today",
+    "closedOn": "Closed on {date}",
+    "opens": "Opens",
+    "closes": "Closes",
+    "attachments": "Attachments",
+    "visitWebsite": "Visit website",
+    "apply": "Apply",
+    "register": "Register",
+    "explore": "Explore",
+    "fallbackNotice": "This content is not yet available in Amharic. Showing the English version.",
+    "related": "Related",
+    "toggleTheme": "Toggle dark mode",
+    "scrollTop": "Back to top",
+    "breadcrumb": "Breadcrumb",
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "pauseSlides": "Pause slideshow",
+    "playSlides": "Play slideshow",
+    "goToSlide": "Go to slide {n}",
+    "close": "Close",
+    "openImage": "Open image {n}",
+    "photos": "{n} photos",
+    "documentNumber": "Ref. No.",
+    "fileType": "File",
+    "issue": "Issue",
+    "readOnline": "Read",
+    "keyFacts": "Key facts",
+    "onThisPage": "On this page",
+    "external": "External",
+    "opensNewTab": "(opens in a new tab)",
+    "contentComingSoon": "Content for this section will be published soon.",
+    "items": "items",
+    "item": "item"
+  },
+  "home": {
+    "heroEyebrow": "Federal Democratic Republic of Ethiopia",
+    "heroTitle": "Innovation and technology for Ethiopia's prosperity",
+    "heroSubtitle": "We lead national research, innovation, ICT and digital economy development so that every citizen benefits from technology.",
+    "exploreSectors": "Explore our sectors",
+    "latestNews": "Latest news",
+    "latestNewsSub": "Updates, milestones and announcements from the Ministry.",
+    "ministerMessage": "Message from the Minister",
+    "readFullMessage": "Read the full message",
+    "focusAreas": "Our focus areas",
+    "focusAreasSub": "The pillars that guide Ethiopia's innovation and digital transformation agenda.",
+    "statsTitle": "MInT at a glance",
+    "sectorsTitle": "Our sectors",
+    "sectorsSub": "Two strategic sectors and a strong administration working toward Digital Ethiopia.",
+    "eventsTitle": "Upcoming events",
+    "noticesTitle": "Notices & announcements",
+    "noEvents": "No upcoming events right now.",
+    "systemsTitle": "Digital services",
+    "systemsSub": "Quick access to Ministry platforms and national systems.",
+    "institutionsTitle": "Affiliated institutions",
+    "institutionsSub": "Agencies accountable to the Ministry that drive science, technology and innovation.",
+    "announcementsBadge": "Latest",
+    "featured": "Featured",
+    "opportunitiesTitle": "Opportunities",
+    "opportunitiesSub": "Vacancies, calls for concept notes, trainings and bids.",
+    "defaultFocus": [
+      {
+        "title": "Research",
+        "description": "Strengthening national research capacity and linking science to Ethiopia's development priorities."
+      },
+      {
+        "title": "Innovation",
+        "description": "Nurturing innovators, startups and the national innovation ecosystem from idea to market."
+      },
+      {
+        "title": "Technology Transfer",
+        "description": "Acquiring, adapting and diffusing technologies that raise productivity across sectors."
+      },
+      {
+        "title": "Digitalization",
+        "description": "Building infrastructure, e-government services and a digital economy that reach every citizen."
+      }
+    ],
+    "liveStats": {
+      "news": "News stories published",
+      "documents": "Official documents",
+      "institutions": "Affiliated institutions",
+      "systems": "Digital services"
+    },
+    "openNow": "open now",
+    "published": "published",
+    "whatWeDo": "What we do",
+    "heroFunctions": [
+      {
+        "title": "Digital government",
+        "text": "E-services, digital ID and paperless public administration",
+        "icon": "landmark"
+      },
+      {
+        "title": "Innovation & startups",
+        "text": "Incubation, funding and a national innovation ecosystem",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "ICT infrastructure",
+        "text": "Data centers, broadband and connectivity for every region",
+        "icon": "server"
+      },
+      {
+        "title": "Research & technology transfer",
+        "text": "Science, research capacity and technology adoption",
+        "icon": "microscope"
+      }
+    ],
+    "defaultSlides": [
+      {
+        "title": "Innovation and technology for Ethiopia's prosperity",
+        "subtitle": "We lead national research, innovation, ICT and digital economy development so that every citizen benefits from technology."
+      },
+      {
+        "title": "Empowering innovators, startups and young talent",
+        "subtitle": "From idea to market: incubation, digital skills and support for the next generation of Ethiopian innovators."
+      },
+      {
+        "title": "Connecting every community to the digital economy",
+        "subtitle": "Broadband, digital services and inclusive connectivity that reach cities and rural areas alike."
+      },
+      {
+        "title": "Secure, resilient national digital infrastructure",
+        "subtitle": "Data centers, cloud and cybersecurity that keep public services available and trusted."
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Stay informed",
+    "text": "Get news, notices and opportunities from the Ministry in your inbox.",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "sending": "Subscribing…",
+    "success": "Thank you! You are now subscribed.",
+    "duplicate": "This email is already subscribed.",
+    "invalid": "Please enter a valid email address.",
+    "error": "Something went wrong. Please try again later.",
+    "privacy": "We only use your email to send Ministry updates. Unsubscribe any time."
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "We are here to help. Reach the Ministry by phone, email or the form below.",
+    "formTitle": "Send us a message",
+    "formText": "Fields marked * are required. We usually reply within three working days.",
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Thank you. Your message has been received.",
+    "error": "We could not send your message. Please try again.",
+    "rateLimited": "Too many attempts. Please wait a minute and try again.",
+    "required": "This field is required.",
+    "invalidEmail": "Please enter a valid email address.",
+    "tooLong": "This text is too long.",
+    "departments": "Department contacts",
+    "workingHours": "Working hours",
+    "address": "Address",
+    "map": "Location map",
+    "getInTouch": "Get in touch"
+  },
+  "feedback": {
+    "question": "Was this page helpful?",
+    "rate": "Rate {n} out of 5",
+    "comment": "Tell us how we can improve (optional)",
+    "submit": "Send feedback",
+    "thanks": "Thank you for your feedback!",
+    "error": "Could not send feedback."
+  },
+  "status": {
+    "open": "Open",
+    "closed": "Closed",
+    "planned": "Planned",
+    "ongoing": "Ongoing",
+    "completed": "Completed",
+    "active": "Active",
+    "maintenance": "Under maintenance",
+    "retired": "Retired",
+    "normal": "Notice",
+    "important": "Important",
+    "urgent": "Urgent",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "expired": "Expired",
+    "internal": "Internal",
+    "external": "External"
+  },
+  "employment": {
+    "permanent": "Permanent",
+    "contract": "Contract",
+    "internship": "Internship",
+    "positions": "Positions",
+    "salary": "Salary grade",
+    "directorate": "Directorate",
+    "description": "Job description",
+    "requirements": "Requirements",
+    "type": "Employment type",
+    "positionsOne": "{n} position",
+    "positionsMany": "{n} positions"
+  },
+  "positions": {
+    "minister": "Minister",
+    "stateMinister": "State Minister",
+    "directorGeneral": "Director General",
+    "director": "Director",
+    "other": "Executive"
+  },
+  "partnerTypes": {
+    "startup": "Startups",
+    "university": "Universities",
+    "incubator": "Incubators",
+    "government": "Government",
+    "privateSector": "Private sector",
+    "international": "International"
+  },
+  "faqCategories": {
+    "general": "General",
+    "services": "Services",
+    "systems": "Systems",
+    "vacancies": "Vacancies"
+  },
+  "docTypes": {
+    "policyRegulationStrategy": "Policy, Regulation & Strategy",
+    "guidelineStandard": "Guideline & Standard",
+    "planReport": "Plan & Report",
+    "other": "Other"
+  },
+  "languages": {
+    "en": "English",
+    "am": "Amharic"
+  },
+  "pages": {
+    "about": {
+      "title": "About the Ministry",
+      "text": "The Ministry of Innovation and Technology leads Ethiopia's science, technology, innovation and digital transformation agenda."
+    },
+    "vision": "Vision",
+    "mission": "Mission",
+    "values": "Core values",
+    "history": "Our history",
+    "duties": "Powers and duties",
+    "legalBasis": "Legal basis",
+    "structure": "Organizational structure",
+    "directorates": "Directorates",
+    "head": "Head",
+    "viewChart": "Download the organizational chart",
+    "leadership": "Leadership",
+    "sectors": {
+      "title": "Our sectors",
+      "text": "Explore how the Ministry is organised to deliver research, innovation and digital transformation."
+    },
+    "subSectors": "Sub-sectors",
+    "sectorNews": "News from this sector",
+    "sectorDocuments": "Documents",
+    "sectorPrograms": "Programs",
+    "news": {
+      "title": "News",
+      "text": "Stories, milestones and updates from the Ministry of Innovation and Technology."
+    },
+    "relatedNews": "Related news",
+    "pressReleases": {
+      "title": "Press releases",
+      "text": "Official statements issued by the Ministry."
+    },
+    "notices": {
+      "title": "Notices",
+      "text": "Official public notices and announcements."
+    },
+    "vacancies": {
+      "title": "Vacancies",
+      "text": "Build Ethiopia's digital future with us. Browse open positions."
+    },
+    "conceptNotes": {
+      "title": "Calls for concept notes",
+      "text": "Funding and partnership calls for researchers, innovators and institutions."
+    },
+    "eligibility": "Eligibility",
+    "trainings": {
+      "title": "Training opportunities",
+      "text": "Capacity-building programs and lists of selected beneficiaries."
+    },
+    "beneficiaries": "Beneficiary lists",
+    "bids": {
+      "title": "Bids",
+      "text": "Procurement notices published on the official e-GP platform."
+    },
+    "viewBid": "View bid",
+    "events": {
+      "title": "Events",
+      "text": "Conferences, forums, exhibitions and launches by the Ministry."
+    },
+    "upcoming": "Upcoming",
+    "pastEvents": "Past events",
+    "albums": "Photo albums",
+    "gallery": {
+      "title": "Photo gallery",
+      "text": "Moments from the Ministry's work across Ethiopia."
+    },
+    "magazines": {
+      "title": "Magazines",
+      "text": "Our periodic magazine on innovation and technology in Ethiopia."
+    },
+    "resources": {
+      "title": "Document library",
+      "text": "Policies, strategies, guidelines, plans and reports published by the Ministry."
+    },
+    "programs": {
+      "title": "Programs & projects",
+      "text": "National initiatives that turn policy into impact."
+    },
+    "relatedDocuments": "Related documents",
+    "systems": {
+      "title": "Systems & digital services",
+      "text": "Platforms operated by the Ministry for staff, institutions and citizens."
+    },
+    "openSystem": "Open system",
+    "ecosystem": {
+      "title": "Ethiopian innovation ecosystem",
+      "text": "Startups, universities, incubators and partners building Ethiopia's innovation ecosystem."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "text": "Quick answers about the Ministry, its services and opportunities."
+    },
+    "media": {
+      "title": "Media centre",
+      "text": "News, press releases, photos, events and publications."
+    },
+    "announcements": {
+      "title": "Announcements",
+      "text": "Notices, bids, vacancies, calls and training opportunities."
+    },
+    "policyPrograms": {
+      "title": "Policy & programs",
+      "text": "The policies that shape Ethiopia's innovation landscape and the programs that deliver them."
+    },
+    "search": {
+      "title": "Search",
+      "text": "Search news, documents, notices and more."
+    },
+    "searchSections": "Results by section"
+  },
+  "empty": {
+    "title": "Nothing here yet",
+    "text": "Content for this section has not been published yet. Please check back soon.",
+    "filtered": "No items match your filters. Try clearing them."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for may have been moved or no longer exists.",
+    "back": "Go to the home page"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "text": "We could not load this page. Please try again.",
+    "retry": "Try again"
+  },
+  "footer": {
+    "about": "The Ministry of Innovation and Technology (MInT) was formed by merging the former Ministry of Science and Technology and the Ministry of Communication and Information Technology.",
+    "quickLinks": "Quick links",
+    "resources": "Resources",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "rights": "All rights reserved.",
+    "government": "Federal Democratic Republic of Ethiopia"
+  }
+}
